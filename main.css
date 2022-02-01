@@ -1,0 +1,37 @@
+body{
+    background-color: #E4F2F9 !important;
+    width: 100%;
+    height: 100vh;
+}
+/* Navbar ======================================== */
+.container-fluid .row .navbar{
+    border: 4px solid #ffffff;
+    border-radius: 50px;
+    padding: 20px 10px;
+    width: 10%;
+}
+.navbar ul li img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.container-fluid .row .content-utama{
+    background-color: #ffffff;
+}
+
+/* Content-Utama ============================================= */
+.total-kasus{
+    background-color: #4253CE;
+    color: #ffffff;
+}
+.last-update{
+    opacity: 0.6;
+}
+/* .card-grub{
+    
+} */
+
+/* Pencariann ================================================= */
+.container-fluid .row .pencarian{
+    background-color: #ffffff;
+}

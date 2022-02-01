@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-around mt-3">
+            <div class="col-2 navbar d-flex justify-content-center">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                      <a href="./indonesia-corona-API/index.html">
+                        <img width="30" src="./img/Icon awesome-home.svg" alt="">
+                      </a>
+                    </li>
+                    <li class="list-group-item"><img width="30" src="./img/Icon metro-earth2.svg" alt=""></li>
+                    <li class="list-group-item"><img width="30" src="./img/Icon open-account-logout.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="col-6 content-utama">
+                <h2 class="mb-5">Data Covid Seluruh Dunia</h2>
+                <div class="card mb-3 total-kasus" style="max-width: 600px;">
+                    <div class="row g-0">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <h5 id="totalKasus" class="card-title">Total Kasus</h5>
+                          <h1 id="hasilGlobal" class="card-text">196 jt</h1>
+                          <p class="card-text last-update">Last updated 3 mins ago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="./img/img-corona.svg" class="img-fluid rounded-start image-corona" alt="...">
+                      </div>
+                    </div>
+                </div>
+                <div class="card-group mb-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 id="totalSembuh" class="card-title">Sembuh</h5>
+                        <h1 id="hasilTotalSembuh" class="card-text">194 jt</h1>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 id="totalMeninggal" class="card-title">Meninggal Dunia</h4>
+                        <h2 id="hasilTotalmeninggal" class="card-text">4.6 jt</h2>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 pencarian">
+                <h4 class="text-center">Temukan Data Negara Lain</h4>
+                <div class="d-flex">
+                    <input id="input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button id="button" class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+                <div class="card mb-3" id="container-hasil">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

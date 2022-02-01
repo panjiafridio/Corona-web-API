@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+            <div class="row" style="background-color: #110225;">
+              <div class="col-md-12" id="dataIndonesia">
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-6 bg-light">
+          <h4 class="text-center pt-3">Data Covid-19 Tiap Provinsi</h4>
+          <div class="col perprovinsi">
+              
+          </div>
+        </div>  
+        <div class="col-6 bg-light">
+          <img width="550vw" class="img-fluid" src="./img/berita.png" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+          <h3>Cari Data Sesuai Provinsi</h3>
+          <div class="d-flex col-12 mb-5">
+            <input style="width: 80%;" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="text">
+            <button id="button" class="btn btn-outline-success" type="submit">Search</button>
+          </div>
+          <div class="col-12 ouput d-flex justify-content-between flex-row">
+            <div class="grafik-total">
+              
+            </div>
+            <div class="grafik-jenis-kelamin">
+              
+            </div>
+            <div class="grafik-kelompok-umur">
+              
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
